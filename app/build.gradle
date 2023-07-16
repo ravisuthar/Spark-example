@@ -26,6 +26,9 @@ dependencies {
     // https://mvnrepository.com/artifact/org.apache.spark/spark-sql
     implementation group: 'org.apache.spark', name: 'spark-sql_2.13', version: '3.4.1'
 
+    // https://mvnrepository.com/artifact/org.mongodb.spark/mongo-spark-connector
+    implementation group: 'org.mongodb.spark', name: 'mongo-spark-connector_2.13', version: '10.2.0'
+
 
     // Use Scala 2.13 in our library project
     implementation 'org.scala-lang:scala-library:2.13.10'
